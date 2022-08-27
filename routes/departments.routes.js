@@ -1,5 +1,4 @@
 const express = require("express");
-const { debugOptions } = require("mongodb/lib/utils");
 const router = express.Router();
 const Department = require("../models/department.model");
 
