@@ -24,6 +24,7 @@ app.use((req, res) => {
 mongoose.connect("mongodb://localhost:27017/companyDB", {
   useNewUrlParser: true,
   useFindAndModify: false,
+  useUnifiedTopology: true,
 });
 const db = mongoose.connection;
 
