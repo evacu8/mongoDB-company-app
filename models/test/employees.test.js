@@ -1,8 +1,5 @@
 const Employee = require("../employees.model");
 const expect = require("chai").expect;
-const mongoose = require("mongoose");
-
-const employeeModelProps = ["firstName", "lastName", "department"];
 
 describe("Employee", () => {
   it("should throw an error if any arg is missing", () => {
